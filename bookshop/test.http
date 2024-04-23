@@ -1,0 +1,35 @@
+### 
+# @name QueryBooksAgain
+GET http://localhost:4004/odata/v4/community/ques
+
+
+
+### 
+# @name DeleteSpecificBookEntity
+
+
+
+
+
+DELETE http://localhost:4004/odata/v4/community/ques(6)
+
+### 
+# @name ReadSpecificBookEntity
+POST  http://localhost:4004/odata/v4/community/ques
+Content-Type: application/json
+
+{
+    
+    "title": "Do I need cloud foundry to build iflows?"
+    
+}
+### 
+# @name DeleteSpecificBookEntity
+
+
+PATCH http://localhost:4004/odata/v4/community/ques(1)
+Content-Type: application/json
+
+{
+    "title": "What roles do I need to access to get into the integration suite"
+}
